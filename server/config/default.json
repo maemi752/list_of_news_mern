@@ -1,0 +1,5 @@
+{
+    "serverPort": 5000,
+    "dbUrl": "mongodb+srv://admin:admin123@list-of-news.4bskz.mongodb.net/list-of-news?retryWrites=true&w=majority",
+    "secretKey": "secretkey"
+}

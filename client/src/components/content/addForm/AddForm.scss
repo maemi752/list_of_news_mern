@@ -1,0 +1,50 @@
+.AddForm {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+
+    .BackBtn {
+        display: grid;
+        justify-items: end;
+
+        .Back{
+            text-decoration: none;
+            color: black;
+            transition: .5s;
+            padding: 10px;
+            outline: none;
+
+            &:hover {
+                color: white;
+                transition: .5s;
+            }
+        }
+    }
+
+    .error {
+        color: crimson;
+        opacity: .8;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .count {
+        margin-bottom: 10px;
+    }
+
+    .AddInfo {
+        display: flex;
+        flex-direction: column;
+
+        .AddText {
+            resize: none;
+            min-height: 500px;
+        }
+    }
+
+    .AddBtn {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+}

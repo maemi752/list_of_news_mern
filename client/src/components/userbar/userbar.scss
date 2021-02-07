@@ -1,0 +1,37 @@
+.Userbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    
+    .user {
+        margin-left: 20px;
+    }
+    .auth {
+        display: flex;
+        flex-direction: row;
+        padding-right: 5px;
+
+        .registration {
+            padding-right: 20px;
+
+            a {
+                color: black;
+                outline:none
+            }
+        }
+
+        .login {
+
+            a {
+                color: black;
+                outline:none
+            }
+        }
+    }
+
+    .logout {
+        cursor: pointer;
+    }
+}

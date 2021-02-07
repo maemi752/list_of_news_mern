@@ -1,0 +1,16 @@
+.Header {
+    margin-top: 5px;
+    background-color: black;
+    width: 100%;
+    padding-top: 5px;
+    height: 50px;
+    
+    a {
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        font-size: 36px;
+        outline: none;
+    }
+}

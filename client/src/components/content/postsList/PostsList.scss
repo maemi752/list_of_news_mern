@@ -1,0 +1,116 @@
+.PostsList {
+  background: radial-gradient(circle, rgba(189,189,189,1) 0%, rgba(88,88,88,1) 100%);
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.List{
+  display: grid;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.Post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 5px 5px rgb(53, 53, 53);
+    margin: 10px;
+    max-width: 1000px;
+    min-width: 250px;
+
+    .Title {
+      padding: 5px;
+      background-color: black;
+      color: white;
+      text-indent: 20px
+    }
+
+    .Text {
+      padding: 10px;
+      text-indent: 20px;
+      padding-bottom: 30px;
+    }
+
+    .Img {
+      min-width: 250px;
+      max-width: 1000px;
+    }
+}
+.AddBtn {
+  display: grid;
+  justify-items: end;
+
+  .AddLink {
+    padding: 10px;
+    text-decoration: none;
+    color: lightgray;
+    transition: .5s;
+    outline: none;
+
+    &:hover {
+      transition: .5s;
+      color: white;
+    }
+  }
+}
+
+.PostFooter {
+  display: flex;
+  justify-content: space-between;
+
+  .DeleteBtn {
+    padding-right: 10px;
+    color: crimson;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: .5s;
+    
+    &:hover {
+      transition: .5s;
+      opacity: 1.0;
+    }
+  }
+
+  .Date {
+    padding-left: 10px;
+  }
+}
+
+.LikeBtn {
+  display: flex;
+  padding: 10px;
+  font-size: 25px;
+  
+  .like {
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .isLike {
+    color: rgb(255, 0, 0); 
+    cursor: pointer;
+    transition: .5s;
+
+  }
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  .page, .current-page{
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+
+  }
+  .current-page {
+    font-weight: 700;
+    color: white;
+  }
+}
